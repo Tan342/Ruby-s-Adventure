@@ -6477,6 +6477,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &786580859 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4511379278992309300, guid: 76a584e768ab9a745a8c455189dc97ac, type: 3}
+  m_PrefabInstance: {fileID: 4511379279748359565}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &815378061
 GameObject:
   m_ObjectHideFlags: 3
@@ -6570,6 +6575,36 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4511379278992309297, guid: 76a584e768ab9a745a8c455189dc97ac, type: 3}
   m_PrefabInstance: {fileID: 4511379279748359565}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &856791485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786580859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: a3ab63609b6dd1a4f82c511e08681c95, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Ruby
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1 &879581022
 GameObject:
   m_ObjectHideFlags: 0
